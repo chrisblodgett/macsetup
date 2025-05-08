@@ -15,7 +15,7 @@ Run the following command in Terminal:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+```
 ---
 
 ## 🧭 Install Microsoft Edge Browser
