@@ -4,3 +4,15 @@ Welcome to **macsetup.md** — a personal reference for restoring and configurin
 
 > Use this to quickly bootstrap a fresh Mac or reconfigure an existing one to match my ideal workflow.
 
+---
+
+## 🧭 Install Microsoft Edge Browser
+
+Microsoft Edge is my preferred browser for its performance, privacy features, and Chromium-based developer tools.
+
+### 🔧 Installation (via Homebrew)
+
+```bash
+brew install --cask microsoft-edge
+
+
