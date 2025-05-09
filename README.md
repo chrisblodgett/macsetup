@@ -26,5 +26,39 @@ Microsoft Edge is my preferred browser for its performance, privacy features, an
 
 ```bash
 brew install --cask microsoft-edge
+```
+---
+
+## 🐱 Install Kitty Terminal
+
+[Kitty](https://sw.kovidgoyal.net/kitty/) is a fast, GPU-accelerated terminal emulator that supports ligatures, tabs, and modern features out of the box. It's my preferred terminal for development work.
+
+### 🔧 Installation (via Homebrew)
+
+```bash
+brew install --cask kitty
+```
+---
+
+## 🐚 Set Up Zsh and Oh My Zsh
+
+Zsh is the default shell on macOS, but this section ensures it's set and enhanced with [Oh My Zsh](https://ohmyz.sh/) — a framework for managing Zsh configuration with themes, plugins, and sensible defaults.
+
+### 🔧 Ensure Zsh is Installed
+
+macOS ships with Zsh preinstalled. To verify:
+
+```bash
+zsh --version
+```
+if not change it with
+```bash
+chsh -s /bin/zsh
+```
+## 💫 Install Oh My Zsh
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 
